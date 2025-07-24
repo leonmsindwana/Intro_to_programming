@@ -1,0 +1,33 @@
+#Monday,
+#Tuesday,
+#Wednesday,
+#Thursday,
+#Friday,
+#Saturday,
+#Sunday {
+    width: 12%;
+    height: 200px;
+    float: left;
+    border: 1px solid black;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.Sunny {
+    background-color: skyblue;
+}
+
+.Raining {
+    background-color: lightgrey;
+}
+
+.Cloudy {
+    background-color: #eee;
+}
+
+.Thunderstorm {
+    background-color: #333;
+    color: #fff;
+}
+
