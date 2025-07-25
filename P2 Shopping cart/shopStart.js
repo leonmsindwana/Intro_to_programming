@@ -31,7 +31,9 @@ function calculate_totalOrderAmt() {
     return totalOrderAmt;
 }
 
- 
+function checkout(){
+    document.getElementById("checkoutTotal").innerHTML="your total amount R " + totalOrderAmt 
+}
 
 
 function display_all() {
